@@ -84,11 +84,11 @@ For Windows and Linux virtual machines already deployed in Azure, you install th
 Azure Monitor can collect events from the Windows event logs or Linux Syslog and performance counters that you specify for longer term analysis and reporting, and take action when a particular condition is detected. Follow these steps to configure collection of events from the Windows system log and Linux Syslog, and several common performance counters to start with.  
 
 
-1.  On the Log Analytics workspaces blade, select **Advanced settings**.
+1.  On the Log Analytics workspaces blade, select **Settings**.
 
        ![Screenshot](../Media/Module-4/e806d778-b771-4334-90c7-5d8bcd120438.png)
 
-2.  Select **Data**, and then select **Windows Event Logs**.
+2.  Select **Agents configuration**, and then select **Windows Event Logs**.
 
 3.  You add an event log by typing in the name of the log.  Type **System** and then select the plus sign **+**.
 
